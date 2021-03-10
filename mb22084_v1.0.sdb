@@ -1,0 +1,489 @@
+[p PRO_MODE GLOBOPT AUTOSTATIC PIC14 PICREGULAR PICMID SPACEOPT ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip PF462XXX ]
+[d frameptr 6 ]
+"259 F:\Project\MB22084\source\v1.0\MB22084_v1.0_product\main.c
+[e E1505 . `uc
+OFF_MODE 0
+OFF2HI_MODE 1
+GLO2HI_MODE 2
+GLO_MODE 3
+INITAL_MODE 4
+]
+"262
+[e E1516 . `uc
+INITAL_ENVT 0
+NORMAL_ENVT 1
+BEYOND_ENVT 2
+]
+"273
+[e E1512 . `uc
+SUM2MOON 0
+MOON2SUN 1
+]
+"6 f:\doc\datesheet\mcu\pf\ide3.0.1_200917\data\sources\common\aldiv.c
+[v ___aldiv __aldiv `(l  1 e 4 0 ]
+"62 f:\doc\datesheet\mcu\pf\ide3.0.1_200917\data\sources\common\float.c
+[v ___ftpack __ftpack `(f  1 e 3 0 ]
+"86 f:\doc\datesheet\mcu\pf\ide3.0.1_200917\data\sources\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 3 0 ]
+"6 f:\doc\datesheet\mcu\pf\ide3.0.1_200917\data\sources\common\lwdiv.c
+[v ___lwdiv __lwdiv `(ui  1 e 2 0 ]
+"6 f:\doc\datesheet\mcu\pf\ide3.0.1_200917\data\sources\common\lwmod.c
+[v ___lwmod __lwmod `(ui  1 e 2 0 ]
+"15 f:\doc\datesheet\mcu\pf\ide3.0.1_200917\data\sources\common\Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+"333 F:\Project\MB22084\source\v1.0\MB22084_v1.0_product\main.c
+[v _ISR ISR `II(v  1 e 1 0 ]
+"393
+[v _oneGLO oneGLO `(v  1 e 1 0 ]
+"403
+[v _Charg_Disp Charg_Disp `(v  1 e 1 0 ]
+"429
+[v _TIMER1_INTSTART TIMER1_INTSTART `(v  1 e 1 0 ]
+"453
+[v _TIMER1_INTSTOP TIMER1_INTSTOP `(v  1 e 1 0 ]
+"468
+[v _POWER_INITIAL POWER_INITIAL `(v  1 e 1 0 ]
+"511
+[v _ADC_INITIAL ADC_INITIAL `(v  1 e 1 0 ]
+"535
+[v _GET_ADC_DATA GET_ADC_DATA `(ui  1 e 2 0 ]
+"573
+[v _WDT_INITIAL WDT_INITIAL `(v  1 e 1 0 ]
+"591
+[v _INT_INITIAL INT_INITIAL `(v  1 e 1 0 ]
+"618
+[v _eventEnterOFF eventEnterOFF `(v  1 e 1 0 ]
+"647
+[v _eventExitOFF eventExitOFF `(v  1 e 1 0 ]
+"769
+[v _Mode_changeCheckFuc Mode_changeCheckFuc `(v  1 e 1 0 ]
+"822
+[v _Event_checkFuc Event_checkFuc `(v  1 e 1 0 ]
+"1112
+[v _chrg_ModeCheck chrg_ModeCheck `(uc  1 e 1 0 ]
+"1231
+[v _Sola_checkFuc Sola_checkFuc `(v  1 e 1 0 ]
+"1307
+[v _GLO_cdsCheckFuc GLO_cdsCheckFuc `(v  1 e 1 0 ]
+"1375
+[v _Solar_BaseDefine Solar_BaseDefine `(v  1 e 1 0 ]
+"1441
+[v _DelayUs DelayUs `(v  1 e 1 0 ]
+"1457
+[v _DelayMs DelayMs `(v  1 e 1 0 ]
+"1497
+[v _EEPROMread EEPROMread `(uc  1 e 1 0 ]
+"1517
+[v _EEPROMwrite EEPROMwrite `(v  1 e 1 0 ]
+"1550
+[v _EEPROM_Init EEPROM_Init `(v  1 e 1 0 ]
+"1583
+[v _Version_Write Version_Write `(v  1 e 1 0 ]
+"1613
+[v _AD_baseGetFuc AD_baseGetFuc `(uc  1 e 1 0 ]
+"1643
+[v _AD_baseWriteFuc AD_baseWriteFuc `(v  1 e 1 0 ]
+"1706
+[v _Seg_Display Seg_Display `(v  1 e 1 0 ]
+"1794
+[v _Seg_OUT Seg_OUT `(v  1 e 1 0 ]
+"1817
+[v _Seg_Lock Seg_Lock `(v  1 e 1 0 ]
+"1863
+[v _TestFunc_Enable TestFunc_Enable `(v  1 e 1 0 ]
+"1891
+[v _TestFunc_Disable TestFunc_Disable `(v  1 e 1 0 ]
+"1923
+[v _main main `(v  1 e 1 0 ]
+"78 f:\doc\datesheet\mcu\pf\ide3.0.1_200917\data\include\PF462XXX.h
+[v _PORTA PORTA `VEuc  1 e 1 @5 ]
+"91
+[v _PA2 PA2 `VEb  1 e 0 @42 ]
+"92
+[v _PA3 PA3 `VEb  1 e 0 @43 ]
+"93
+[v _PA4 PA4 `VEb  1 e 0 @44 ]
+"95
+[v _PA6 PA6 `VEb  1 e 0 @46 ]
+"96
+[v _PA7 PA7 `VEb  1 e 0 @47 ]
+"129
+[v _PORTC PORTC `VEuc  1 e 1 @7 ]
+"139
+[v _PC1 PC1 `VEb  1 e 0 @57 ]
+"141
+[v _PC3 PC3 `VEb  1 e 0 @59 ]
+"143
+[v _PC5 PC5 `VEb  1 e 0 @61 ]
+"184
+[v _INTCON INTCON `VEuc  1 e 1 @11 ]
+"186
+[v _PAIF PAIF `VEb  1 e 0 @88 ]
+"187
+[v _INTF INTF `VEb  1 e 0 @89 ]
+"189
+[v _PAIE PAIE `VEb  1 e 0 @91 ]
+"190
+[v _INTE INTE `VEb  1 e 0 @92 ]
+"192
+[v _PEIE PEIE `VEb  1 e 0 @94 ]
+"193
+[v _GIE GIE `VEb  1 e 0 @95 ]
+"212
+[v _TMR1IF TMR1IF `VEb  1 e 0 @96 ]
+"218
+[v _EEIF EEIF `VEb  1 e 0 @103 ]
+"251
+[v _TMR1L TMR1L `VEuc  1 e 1 @14 ]
+"255
+[v _TMR1H TMR1H `VEuc  1 e 1 @15 ]
+"259
+[v _T1CON T1CON `VEuc  1 e 1 @16 ]
+"261
+[v _TMR1ON TMR1ON `VEb  1 e 0 @128 ]
+"424
+[v _WDTCON WDTCON `VEuc  1 e 1 @24 ]
+"426
+[v _SWDTEN SWDTEN `VEb  1 e 0 @192 ]
+"449
+[v _CMCON0 CMCON0 `VEuc  1 e 1 @25 ]
+"494
+[v _MSCKCON MSCKCON `VEuc  1 e 1 @27 ]
+"534
+[v _ADRESH ADRESH `VEuc  1 e 1 @30 ]
+"538
+[v _ADCON0 ADCON0 `VEuc  1 e 1 @31 ]
+"540
+[v _ADON ADON `VEb  1 e 0 @248 ]
+"541
+[v _GO_DONE GO_DONE `VEb  1 e 0 @249 ]
+"574
+[v _OPTION OPTION `VEuc  1 e 1 @129 ]
+"579
+[v _PSA PSA `VEb  1 e 0 @1035 ]
+"582
+[v _INTEDG INTEDG `VEb  1 e 0 @1038 ]
+"603
+[v _TRISA TRISA `VEuc  1 e 1 @133 ]
+"607
+[v _TRISA2 TRISA2 `VEb  1 e 0 @1066 ]
+"608
+[v _TRISA3 TRISA3 `VEb  1 e 0 @1067 ]
+"633
+[v _TRISC TRISC `VEuc  1 e 1 @135 ]
+"638
+[v _TRISC3 TRISC3 `VEb  1 e 0 @1083 ]
+"660
+[v _WPUC WPUC `VEuc  1 e 1 @136 ]
+"663
+[v _WPUC1 WPUC1 `VEb  1 e 0 @1089 ]
+"708
+[v _TMR1IE TMR1IE `VEb  1 e 0 @1120 ]
+"778
+[v _OSCCON OSCCON `VEuc  1 e 1 @143 ]
+"834
+[v _ANSEL ANSEL `VEuc  1 e 1 @145 ]
+"866
+[v _WPUA WPUA `VEuc  1 e 1 @149 ]
+"871
+[v _WPUA2 WPUA2 `VEb  1 e 0 @1194 ]
+"872
+[v _WPUA3 WPUA3 `VEb  1 e 0 @1195 ]
+"912
+[v _IOCA IOCA `VEuc  1 e 1 @150 ]
+"971
+[v _EEDAT EEDAT `VEuc  1 e 1 @154 ]
+"976
+[v _EEADR EEADR `VEuc  1 e 1 @155 ]
+"981
+[v _EECON1 EECON1 `VEuc  1 e 1 @156 ]
+"983
+[v _RD RD `VEb  1 e 0 @1248 ]
+"1004
+[v _WR WR `VEb  1 e 0 @1256 ]
+"1014
+[v _ADRESL ADRESL `VEuc  1 e 1 @158 ]
+"1018
+[v _ADCON1 ADCON1 `VEuc  1 e 1 @159 ]
+"259 F:\Project\MB22084\source\v1.0\MB22084_v1.0_product\main.c
+[v _g_checkMode g_checkMode `VEE1505  1 e 1 0 ]
+"261
+[v _g_adBaseValue g_adBaseValue `VEui  1 e 2 0 ]
+"262
+[v _g_gloEnvt_st g_gloEnvt_st `VEE1516  1 e 1 0 ]
+"263
+[v _g_gloCntTimer g_gloCntTimer `VEuc  1 e 1 0 ]
+"264
+[v _g_gloRecValue g_gloRecValue `VEui  1 e 2 0 ]
+"265
+[v _g_gloCurValue g_gloCurValue `VEui  1 e 2 0 ]
+"269
+[v _g_checkStBits g_checkStBits `VEuc  1 e 1 0 ]
+"273
+[v _g_light_stvalue g_light_stvalue `VEE1512  1 e 1 0 ]
+"275
+[v _g_ledkeep g_ledkeep `VEui  1 e 2 0 ]
+"277
+[v _g_event_t g_event_t `VEuc  1 e 1 0 ]
+"279
+[v _g_cdsCmp g_cdsCmp `VEuc  1 e 1 0 ]
+"329
+[v _Seg_0F Seg_0F `[18]uc  1 e 18 0 ]
+"1923
+[v _main main `(v  1 e 1 0 ]
+{
+"1925
+[v main@main_i main_i `uc  1 a 1 9 ]
+"2066
+} 0
+"1112
+[v _chrg_ModeCheck chrg_ModeCheck `(uc  1 e 1 0 ]
+{
+"1115
+[v chrg_ModeCheck@ch_i ch_i `uc  1 a 1 8 ]
+"1155
+} 0
+"403
+[v _Charg_Disp Charg_Disp `(v  1 e 1 0 ]
+{
+"405
+[v Charg_Disp@chg_t chg_t `uc  1 a 1 7 ]
+"419
+} 0
+"1583
+[v _Version_Write Version_Write `(v  1 e 1 0 ]
+{
+"1585
+[v Version_Write@D_d D_d `uc  1 a 1 6 ]
+[v Version_Write@V_d V_d `uc  1 a 1 5 ]
+"1602
+} 0
+"1863
+[v _TestFunc_Enable TestFunc_Enable `(v  1 e 1 0 ]
+{
+"1880
+} 0
+"1891
+[v _TestFunc_Disable TestFunc_Disable `(v  1 e 1 0 ]
+{
+"1912
+} 0
+"1375
+[v _Solar_BaseDefine Solar_BaseDefine `(v  1 e 1 0 ]
+{
+"1379
+[v Solar_BaseDefine@ad_total ad_total `[10]ui  1 a 20 11 ]
+[v Solar_BaseDefine@ad_v ad_v `ui  1 a 2 34 ]
+[v Solar_BaseDefine@ad_sum ad_sum `ui  1 a 2 32 ]
+"1378
+[v Solar_BaseDefine@i i `uc  1 a 1 37 ]
+[v Solar_BaseDefine@j j `uc  1 a 1 36 ]
+[v Solar_BaseDefine@define_t define_t `uc  1 a 1 31 ]
+"1381
+[v Solar_BaseDefine@ad_vpre ad_vpre `ui  1 s 2 ad_vpre ]
+"1434
+} 0
+"393
+[v _oneGLO oneGLO `(v  1 e 1 0 ]
+{
+"401
+} 0
+"1643
+[v _AD_baseWriteFuc AD_baseWriteFuc `(v  1 e 1 0 ]
+{
+"1645
+[v AD_baseWriteFuc@ad_vh ad_vh `uc  1 a 1 3 ]
+[v AD_baseWriteFuc@ad_vl ad_vl `uc  1 a 1 2 ]
+"1646
+[v AD_baseWriteFuc@ad_ch ad_ch `uc  1 a 1 1 ]
+[v AD_baseWriteFuc@ad_cl ad_cl `uc  1 a 1 0 ]
+"1643
+[v AD_baseWriteFuc@ad_vt ad_vt `ui  1 p 2 5 ]
+"1666
+} 0
+"1231
+[v _Sola_checkFuc Sola_checkFuc `(v  1 e 1 0 ]
+{
+"1239
+[v Sola_checkFuc@ad_total ad_total `[10]ui  1 a 20 11 ]
+[v Sola_checkFuc@ad_v ad_v `ui  1 a 2 34 ]
+[v Sola_checkFuc@ad_sum ad_sum `ui  1 a 2 32 ]
+"1238
+[v Sola_checkFuc@i i `uc  1 a 1 37 ]
+[v Sola_checkFuc@j j `uc  1 a 1 36 ]
+[v Sola_checkFuc@z z `uc  1 a 1 31 ]
+"1240
+[v Sola_checkFuc@ad_vpre ad_vpre `ui  1 s 2 ad_vpre ]
+"1294
+} 0
+"535
+[v _GET_ADC_DATA GET_ADC_DATA `(ui  1 e 2 0 ]
+{
+[v GET_ADC_DATA@AN_CH AN_CH `uc  1 a 1 wreg ]
+"538
+[v GET_ADC_DATA@ADC_DATA ADC_DATA `ui  1 a 2 6 ]
+"537
+[v GET_ADC_DATA@AD_chBuff AD_chBuff `uc  1 a 1 5 ]
+"535
+[v GET_ADC_DATA@AN_CH AN_CH `uc  1 a 1 wreg ]
+[v GET_ADC_DATA@AN_CH AN_CH `uc  1 a 1 8 ]
+"563
+} 0
+"468
+[v _POWER_INITIAL POWER_INITIAL `(v  1 e 1 0 ]
+{
+"500
+} 0
+"769
+[v _Mode_changeCheckFuc Mode_changeCheckFuc `(v  1 e 1 0 ]
+{
+"811
+} 0
+"591
+[v _INT_INITIAL INT_INITIAL `(v  1 e 1 0 ]
+{
+"607
+} 0
+"1307
+[v _GLO_cdsCheckFuc GLO_cdsCheckFuc `(v  1 e 1 0 ]
+{
+"1309
+[v GLO_cdsCheckFuc@m_adpre m_adpre `uc  1 a 1 8 ]
+"1310
+[v GLO_cdsCheckFuc@av_check_lt av_check_lt `uc  1 s 1 av_check_lt ]
+"1311
+[v GLO_cdsCheckFuc@av_check_dt av_check_dt `uc  1 s 1 av_check_dt ]
+"1366
+} 0
+"15 f:\doc\datesheet\mcu\pf\ide3.0.1_200917\data\sources\common\Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+{
+"17
+[v ___wmul@product product `ui  1 a 2 6 ]
+"15
+[v ___wmul@multiplier multiplier `ui  1 p 2 2 ]
+[v ___wmul@multiplicand multiplicand `ui  1 p 2 4 ]
+"53
+} 0
+"6 f:\doc\datesheet\mcu\pf\ide3.0.1_200917\data\sources\common\lwdiv.c
+[v ___lwdiv __lwdiv `(ui  1 e 2 0 ]
+{
+"11
+[v ___lwdiv@quotient quotient `ui  1 a 2 5 ]
+"12
+[v ___lwdiv@counter counter `uc  1 a 1 4 ]
+"6
+[v ___lwdiv@divisor divisor `ui  1 p 2 0 ]
+[v ___lwdiv@dividend dividend `ui  1 p 2 2 ]
+"31
+} 0
+"822 F:\Project\MB22084\source\v1.0\MB22084_v1.0_product\main.c
+[v _Event_checkFuc Event_checkFuc `(v  1 e 1 0 ]
+{
+"1038
+} 0
+"647
+[v _eventExitOFF eventExitOFF `(v  1 e 1 0 ]
+{
+"660
+} 0
+"573
+[v _WDT_INITIAL WDT_INITIAL `(v  1 e 1 0 ]
+{
+"581
+} 0
+"618
+[v _eventEnterOFF eventEnterOFF `(v  1 e 1 0 ]
+{
+"636
+} 0
+"453
+[v _TIMER1_INTSTOP TIMER1_INTSTOP `(v  1 e 1 0 ]
+{
+"458
+} 0
+"429
+[v _TIMER1_INTSTART TIMER1_INTSTART `(v  1 e 1 0 ]
+{
+"444
+} 0
+"1457
+[v _DelayMs DelayMs `(v  1 e 1 0 ]
+{
+[v DelayMs@Time Time `uc  1 a 1 wreg ]
+"1459
+[v DelayMs@b b `uc  1 a 1 6 ]
+[v DelayMs@a a `uc  1 a 1 5 ]
+"1457
+[v DelayMs@Time Time `uc  1 a 1 wreg ]
+"1460
+[v DelayMs@Time Time `uc  1 a 1 4 ]
+"1469
+} 0
+"1441
+[v _DelayUs DelayUs `(v  1 e 1 0 ]
+{
+[v DelayUs@Time Time `uc  1 a 1 wreg ]
+"1443
+[v DelayUs@a a `uc  1 a 1 3 ]
+"1441
+[v DelayUs@Time Time `uc  1 a 1 wreg ]
+"1444
+[v DelayUs@Time Time `uc  1 a 1 2 ]
+"1450
+} 0
+"1550
+[v _EEPROM_Init EEPROM_Init `(v  1 e 1 0 ]
+{
+"1552
+[v EEPROM_Init@ep_t ep_t `uc  1 a 1 5 ]
+"1572
+} 0
+"1517
+[v _EEPROMwrite EEPROMwrite `(v  1 e 1 0 ]
+{
+[v EEPROMwrite@EEAddr EEAddr `uc  1 a 1 wreg ]
+"1519
+[v EEPROMwrite@gietag gietag `uc  1 a 1 4 ]
+"1517
+[v EEPROMwrite@EEAddr EEAddr `uc  1 a 1 wreg ]
+[v EEPROMwrite@Data Data `uc  1 p 1 2 ]
+"1521
+[v EEPROMwrite@EEAddr EEAddr `uc  1 a 1 3 ]
+"1537
+} 0
+"1613
+[v _AD_baseGetFuc AD_baseGetFuc `(uc  1 e 1 0 ]
+{
+"1615
+[v AD_baseGetFuc@ad_vh ad_vh `uc  1 a 1 7 ]
+[v AD_baseGetFuc@ad_vl ad_vl `uc  1 a 1 6 ]
+[v AD_baseGetFuc@ad_vh2 ad_vh2 `uc  1 a 1 5 ]
+[v AD_baseGetFuc@ad_vl2 ad_vl2 `uc  1 a 1 4 ]
+"1632
+} 0
+"1497
+[v _EEPROMread EEPROMread `(uc  1 e 1 0 ]
+{
+[v EEPROMread@EEAddr EEAddr `uc  1 a 1 wreg ]
+"1499
+[v EEPROMread@ReEEPROMread ReEEPROMread `uc  1 a 1 3 ]
+"1497
+[v EEPROMread@EEAddr EEAddr `uc  1 a 1 wreg ]
+"1501
+[v EEPROMread@EEAddr EEAddr `uc  1 a 1 2 ]
+"1506
+} 0
+"511
+[v _ADC_INITIAL ADC_INITIAL `(v  1 e 1 0 ]
+{
+"526
+} 0
+"333
+[v _ISR ISR `II(v  1 e 1 0 ]
+{
+"383
+} 0
